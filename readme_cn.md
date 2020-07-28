@@ -35,6 +35,12 @@ testB放要转换的动漫照片
 python main.py --dataset selfie2anime --phase test
 6.结果
 结果在新生成的目录results\UGATIT_selfie2anime_lsgan_4resblock_6dis_1_1_10_10_1000_sn_smoothing下
+
+trainA/trainB中的数据用于训练使用的，使用命令
+python main.py --dataset selfie2anime 进行训练
+
+testA/testB用于测试的使用命令
+python main.py --dataset selfie2anime --phase test
 ```
 > [taki0112/UGATIT](https://github.com/taki0112/UGATIT)
 
